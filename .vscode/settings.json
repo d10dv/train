@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "gpio.h": "c",
+        "gpio_types.h": "c",
+        "main.h": "c",
+        "system_error": "c",
+        "array": "c",
+        "functional": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "esp_err.h": "c",
+        "param.h": "c",
+        "esp_vfs.h": "c"
+    }
+}
