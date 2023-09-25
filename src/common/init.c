@@ -8,6 +8,7 @@
 #include "periphery/h-bridge.h"
 #include "io/http.h"
 #include "io/spiffs.h"
+#include "loco.h"
 
 static const char *TAG = "INIT";
 
@@ -38,6 +39,8 @@ esp_err_t init()
     start_webserver();
 
     h_bridge_initial();
+
+    loco_init();
 
     INFO_LOG(TAG, "complete");
 
