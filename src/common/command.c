@@ -5,7 +5,7 @@
 
 void start(void)
 {
-    loco_set_power(&loco, 50);
+    loco_set_power(&loco, 100);
 }
 
 void stop(void)
